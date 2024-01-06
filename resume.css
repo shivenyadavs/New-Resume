@@ -1,0 +1,129 @@
+
+body{
+    background-color: bisque;
+    background-image: url(https://i.pinimg.com/736x/4f/50/3c/4f503caa958fc1dcaec66c0b60a6ebd1.jpg);
+    background-size: cover;
+    padding:5px 5px 5px 5px;
+}
+#horibar{
+    background-color: rosybrown;
+    display:inline table;
+}
+#card{
+    border: 2px solid;
+    padding: 20px 20px 25px 20px;
+    border-color: darkorange;
+}
+h1{
+    color:black;
+    font-style:italic;
+    color: red;
+    
+}
+h1:hover{
+    color: yellowgreen;
+}
+.t1{
+     color: brown;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: yellow;
+}
+.t2{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darksalmon;
+}
+#sec1{
+    font-family: monospace;
+    font-size: large;
+}
+#sec1 table,th,td,tr{
+    border-collapse: collapse;
+    width: 60%;
+    height: 60%;
+    font-size: larger;
+}
+table,th,td,tr{
+    border-collapse: collapse;
+    border:solid;
+    border-color: red;
+    width: 60%;
+    height: 60%;
+}
+#t2cert{
+    font-size:20px; color:black;
+}
+.nav{
+    display: inline table;
+    padding: 15px;
+}
+   
+li a{
+    text-decoration: none;
+}
+.dropdown{
+    width: 100px;
+      position:relative;
+    }
+
+    .dropdown-button {
+      width: 100%;
+      padding: 2px;
+      border: 1px solid #3498db;
+      border-radius: 5px;
+      background-color: #5a7383;
+      color: #fff;
+      cursor: pointer;
+    }
+    .dropdown-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: none;
+      position: absolute;
+      width: 100%;
+      border: 1px solid #5e6464;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .dropdown-item {
+      padding: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .dropdown-item:hover {
+      background-color: #3498db;
+      color: #fff;
+    }
+    .dropdown:hover .dropdown-list,
+    .dropdown:focus-within .dropdown-list {
+      display: block;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: none; 
+    }
+
+    #horibar {
+        display: block; 
+    }
+    #card {
+        padding: 10px; 
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    #sec1 {
+        font-size: 16px;
+    }
+
+    #sec1 table,
+    th,
+    td,
+    tr {
+        width: 100%; 
+    }
+}
